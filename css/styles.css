@@ -429,7 +429,8 @@ footer {
 
     form {
         margin-top: 10px;
-        margin-left: -15px;
+        position: relative;
+        left: 3px;
         }
 }
 @media all and (max-width: 365px) {
@@ -439,7 +440,8 @@ footer {
 
     form {
         margin-top: 10px;
-        margin-left: -15px;
+        position: relative;
+        left: 19px;
         }
     }
 
