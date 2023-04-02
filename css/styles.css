@@ -318,6 +318,11 @@ animation: spin-effect 1.2s linear infinite
     opacity: 0.8;
 }
 /*Contact Page Styles */
+
+.form-styles {
+    display: flex;
+    
+}
 .oshea-contact {
     line-height: 2px;
 }
@@ -420,11 +425,7 @@ footer {
     }
 }
 
-    @media all and (min-width:0px) and (max-width: 332px) {
-        .page-header {
-            height:110px ;
-        }
-
+    @media all and (min-width:0px) and (max-width: 404px) {
         .circle-behind a:before, .circle-behind a:after
 {
     position: absolute;
@@ -441,7 +442,7 @@ footer {
     transition: all 0.1s;
     z-index: -1;
 }
-
+    
 .circle-behind a:after
 {
     border-width: 2px;
@@ -451,17 +452,38 @@ footer {
 .circle-behind a:hover:before
 {
     opacity: 0.2;
-    transform: translateX(-50%) translateY(-55%) scale(0.1);
+    transform: translateX(-50%) translateY(-55%) scale(0.2);
 }
 
 .circle-behind a:hover:after
 {
     opacity: 0.3;
-    transform: translateX(-50%) translateY(-55%) scale(0.5);
+    transform: translateX(-50%) translateY(-55%) scale(0.6);
 }
+   }
+   
+   @media all and (min-width:342px) and (max-width: 404px) {
 
-
+    .navigation-list li {
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 25px;
+        font-size: 1.8rem;
     }
+    
+    @media all and (min-width:0px) and (max-width: 341px) {
+    .page-header {
+        height:110px ;
+    }
+
+    .navigation-list li {
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 0px;
+        font-size: 1.7rem;
+    }
+
+}
     
     @media all and (max-width: 400px) {
         table, thead, tbody, th, td, tr { 
@@ -493,8 +515,4 @@ footer {
 	td:nth-of-type(2):before { content: "YEARS OF EXPERTISE"; }
 	td:nth-of-type(3):before { content: "LEVEL OF EXPERTISE"; }
     }
-
-
-
-
-
+}
