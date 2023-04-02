@@ -123,7 +123,7 @@ animation: spin-effect 1.2s linear infinite
     text-align: right;
 }
 .navigation-list li {
-    color: var(--nav-color);
+    color: var(--primary-color);
     display: inline-block;
     margin-left: 15px;
     text-transform: uppercase;

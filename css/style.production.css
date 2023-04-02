@@ -159,7 +159,7 @@ th, td {
     text-align: right;
 }
 .navigation-list li {
-    color: undefined;
+    color: rgb(233, 10, 10);
     display: inline-block;
     margin-left: 15px;
     text-transform: uppercase;
