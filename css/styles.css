@@ -445,7 +445,7 @@ footer {
 
     @media all and (min-width:275px) and (max-width: 300px) {
         .page-header {
-            height: 112px;
+            height: 111px;
         }
     }
 
