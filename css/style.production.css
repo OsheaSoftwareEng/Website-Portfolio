@@ -592,7 +592,31 @@ footer {
         position: relative;
         top: 40px;
     }
+    .label-font {
+        font-size: 3.5rem;
+    }
+
+    form {
+        margin-top: 10px;
+        margin-left: -15px;
+        }
 }
+@media all and (max-width: 365px) {
+    .label-font {
+        font-size: 2.5rem;
+    }
+
+    form {
+        margin-top: 10px;
+        margin-left: -15px;
+        }
+    }
+
+    @media all and (min-width:275px) and (max-width: 300px) {
+        .page-header {
+            height: 112px;
+        }
+    }
 
     @media all and (min-width:0px) and (max-width: 404px) {
         .circle-behind a:before
@@ -645,22 +669,23 @@ footer {
 }
 
 .circle-behind a:hover:before
-{
+    {
     opacity: 0.2;
     -webkit-transform: translateX(-50%) translateY(-55%) scale(0.2);
         -ms-transform: translateX(-50%) translateY(-55%) scale(0.2);
             transform: translateX(-50%) translateY(-55%) scale(0.2);
-}
+    }
 
 .circle-behind a:hover:after
-{
+    {
     opacity: 0.3;
     -webkit-transform: translateX(-50%) translateY(-55%) scale(0.6);
         -ms-transform: translateX(-50%) translateY(-55%) scale(0.6);
             transform: translateX(-50%) translateY(-55%) scale(0.6);
+    }
+
 }
-   }
-   
+
    @media all and (min-width:342px) and (max-width: 404px) {
 
     .navigation-list li {
@@ -669,6 +694,7 @@ footer {
         bottom: 25px;
         font-size: 1.8rem;
     }
+
     
     @media all and (min-width:0px) and (max-width: 341px) {
     .page-header {
