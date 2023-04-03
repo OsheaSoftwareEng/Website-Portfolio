@@ -534,8 +534,6 @@ footer {
             transform: scale(0.7);
 }
 
-
-
 /*Media Queries*/
 
 /*Work Page Media Querie Styles*/
@@ -558,7 +556,7 @@ footer {
         }
     }
 }
-    
+    /* Grid Media Querie */
     @media all and (max-width: 500px) {
         .grid {
             -ms-grid-columns: 1fr;
@@ -571,8 +569,8 @@ footer {
         }
     }
     
-/*Home Page Media Querie Styles*/
-@media all and (max-width: 500px) {
+    /*Home Page Media Querie Styles*/
+    @media all and (max-width: 500px) {
     .profile {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -602,7 +600,7 @@ footer {
         left: 3px;
         }
 }
-@media all and (max-width: 365px) {
+    @media all and (max-width: 365px) {
     .label-font {
         font-size: 2.5rem;
     }
@@ -641,7 +639,7 @@ footer {
         font-size: 1.8rem;
     }
 
-    
+
     @media all and (min-width:0px) and (max-width: 341px) {
     .page-header {
         height:110px ;
@@ -655,35 +653,35 @@ footer {
     }
 
 }
-    
+
     @media all and (max-width: 400px) {
-        table, thead, tbody, th, td, tr { 
-            display: block; 
-        }
-        thead tr { 
-            position: absolute;
-            top: -9999px;
-            left: -9999px;
-        }
-        tr { border: 1px solid #ccc; }
-	
-        td { 
-            border: none;
-            border-bottom: 1px solid #eee; 
-            position: relative;
-            padding-left: 50%; 
-        }
-        
-        td:before { 
-            position: absolute;
-            top: 6px;
-            left: 6px;
-            width: 45%; 
-            padding-right: 10px; 
-            white-space: nowrap;
-        }
-        td:nth-of-type(1):before { content: "SKILLS"; }
-	td:nth-of-type(2):before { content: "YEARS OF EXPERTISE"; }
-	td:nth-of-type(3):before { content: "LEVEL OF EXPERTISE"; }
+    table, thead, tbody, th, td, tr { 
+        display: block;
     }
-}
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr { border: 1px solid #ccc; }
+
+    td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+    }
+    
+    td:before { 
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+    }
+    td:nth-of-type(1):before { content: "SKILLS"; }
+    td:nth-of-type(2):before { content: "YEARS OF EXPERTISE"; }
+    td:nth-of-type(3):before { content: "LEVEL OF EXPERTISE"; }
+    } 
+} 
